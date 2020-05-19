@@ -78,9 +78,9 @@ BitcoinGUI::BitcoinGUI(QWidget *parent):
     notificator(0),
     rpcConsole(0)
 {
-    updateStyle();	
+    //updateStyle();
     resize(960, 740);
-    setWindowTitle(tr("Elite") + " - " + tr("Wallet"));
+    setWindowTitle(tr("Elite Currency") + " - " + tr("Wallet"));
 #ifndef Q_OS_MAC
     qApp->setWindowIcon(QIcon(":icons/bitcoin"));
     setWindowIcon(QIcon(":icons/bitcoin"));
@@ -1031,7 +1031,7 @@ void BitcoinGUI::toggleHidden()
     showNormalIfMinimized(true);
 }
 
-void BitcoinGUI::updateStyleSlot()
+/*void BitcoinGUI::updateStyleSlot()
 {
     updateStyle();
 }
@@ -1069,3 +1069,4 @@ void BitcoinGUI::writeDefaultStyleSheet(const QString &qssPath)
     f.open( QFile::ReadWrite );
     f.write( qss.readAll() );
 }
+*/

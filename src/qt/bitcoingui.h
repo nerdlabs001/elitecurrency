@@ -193,7 +193,7 @@ private slots:
 
     void multiSendClicked(QString addr = "");
 	
-	void updateStyleSlot();
+    //void updateStyleSlot();
 };
 
 #endif
