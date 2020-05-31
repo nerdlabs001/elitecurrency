@@ -54,6 +54,7 @@
         <file>res/icons/novacoin.ico</file>
         <file>res/icons/novacoin.png</file>
         <file>res/icons/resources.png</file>
+        <file>res/art/discord.png</file>
     </qresource>
     <qresource prefix="/images">
         <file alias="about">res/images/about.png</file>
