@@ -7,13 +7,13 @@
     <x>0</x>
     <y>0</y>
     <width>760</width>
-    <height>498</height>
+    <height>513</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Form</string>
   </property>
-  <layout class="QVBoxLayout" name="verticalLayout_5" stretch="0,1,0">
+  <layout class="QVBoxLayout" name="verticalLayout_5" stretch="0,1">
    <property name="topMargin">
     <number>2</number>
    </property>
@@ -57,7 +57,7 @@
            <string notr="true">QLabel { color: red; }</string>
           </property>
           <property name="text">
-           <string notr="true">(Out of sync with the Elite network)</string>
+           <string notr="true">(Out of sync with the Elite Currency network)</string>
           </property>
           <property name="alignment">
            <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -400,7 +400,7 @@
              <string notr="true">QLabel { color: red; }</string>
             </property>
             <property name="text">
-             <string notr="true">(Out of sync with the Elite network)</string>
+             <string notr="true">(Out of sync with the Elite Currency network)</string>
             </property>
             <property name="alignment">
              <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -459,47 +459,8 @@
      </item>
     </layout>
    </item>
-   <item>
-    <widget class="QFrame" name="diffplotframe">
-     <property name="frameShape">
-      <enum>QFrame::NoFrame</enum>
-     </property>
-     <property name="frameShadow">
-      <enum>QFrame::Plain</enum>
-     </property>
-     <property name="lineWidth">
-      <number>0</number>
-     </property>
-     <layout class="QGridLayout" name="gridLayout">
-      <item row="0" column="0">
-       <widget class="QCustomPlot" name="diffplot" native="true">
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="minimumSize">
-         <size>
-          <width>0</width>
-          <height>180</height>
-         </size>
-        </property>
-       </widget>
-      </item>
-     </layout>
-    </widget>
-   </item>
   </layout>
  </widget>
- <customwidgets>
-  <customwidget>
-   <class>QCustomPlot</class>
-   <extends>QWidget</extends>
-   <header>qt/qcustomplot.h</header>
-   <container>1</container>
-  </customwidget>
- </customwidgets>
  <resources/>
  <connections/>
 </ui>

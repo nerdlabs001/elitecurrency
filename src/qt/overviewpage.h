@@ -25,7 +25,7 @@ public:
 
     void setModel(WalletModel *model);
     void showOutOfSyncWarning(bool fShow);
-	void updatePlot(int count);
+
 
 public slots:
     void setBalance(qint64 balance, qint64 stake, qint64 unconfirmedBalance, qint64 immatureBalance);
@@ -42,8 +42,7 @@ private:
     qint64 currentUnconfirmedBalance;
     qint64 currentImmatureBalance;
 	
-	QVector<double> vX;
-	QVector<double> vY;
+
 
     TxViewDelegate *txdelegate;
     TransactionFilterProxy *filter;
