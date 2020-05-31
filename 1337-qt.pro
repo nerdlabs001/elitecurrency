@@ -170,6 +170,7 @@ HEADERS += src/qt/bitcoingui.h \
     src/qt/aboutdialog.h \
     src/qt/editaddressdialog.h \
     src/qt/bitcoinaddressvalidator.h \
+    src/qt/resources.h \
     src/alert.h \
     src/addrman.h \
     src/base58.h \
@@ -279,6 +280,7 @@ SOURCES += src/qt/bitcoin.cpp src/qt/bitcoingui.cpp \
     src/qt/aboutdialog.cpp \
     src/qt/editaddressdialog.cpp \
     src/qt/bitcoinaddressvalidator.cpp \
+    src/qt/resources.cpp \
     src/alert.cpp \
     src/version.cpp \
     src/sync.cpp \
@@ -363,6 +365,7 @@ FORMS += \
     src/qt/forms/sendcoinsentry.ui \
     src/qt/forms/askpassphrasedialog.ui \
     src/qt/forms/rpcconsole.ui \
+    src/qt/forms/resources.ui \
     src/qt/forms/optionsdialog.ui
 
 contains(USE_QRCODE, 1) {

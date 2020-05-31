@@ -26,6 +26,7 @@
 #include "notificator.h"
 #include "guiutil.h"
 #include "rpcconsole.h"
+#include "resources.h"
 #include "wallet.h"
 
 #ifdef Q_OS_MAC
@@ -122,6 +123,8 @@ BitcoinGUI::BitcoinGUI(QWidget *parent):
 
     signVerifyMessageDialog = new SignVerifyMessageDialog(this);
 
+    resourcesPage = new ReSources(this);
+
     centralWidget = new QStackedWidget(this);
     centralWidget->addWidget(overviewPage);
     centralWidget->addWidget(transactionsPage);
@@ -129,6 +132,8 @@ BitcoinGUI::BitcoinGUI(QWidget *parent):
     centralWidget->addWidget(receiveCoinsPage);
     centralWidget->addWidget(sendCoinsPage);
     centralWidget->addWidget(multiSendDialog);
+    centralWidget->addWidget(resourcesPage);
+
     setCentralWidget(centralWidget);
 
     // Create status bar
@@ -200,6 +205,7 @@ BitcoinGUI::BitcoinGUI(QWidget *parent):
 
     // Clicking on "Verify Message" in the address book sends you to the verify message tab
     connect(addressBookPage, SIGNAL(verifyMessage(QString)), this, SLOT(gotoVerifyMessageTab(QString)));
+
     // Clicking on "Sign Message" in the receive coins page sends you to the sign message tab
     connect(receiveCoinsPage, SIGNAL(signMessage(QString)), this, SLOT(gotoSignMessageTab(QString)));
 
@@ -255,6 +261,11 @@ void BitcoinGUI::createActions()
     multiSendAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_7));
     tabGroup->addAction(multiSendAction);
 
+    resourcesAction = new QAction(QIcon(":/icons/res/icons/resources.png"), tr("&Resources"), this);
+    resourcesAction ->setToolTip(tr("Information and links about Elite "));
+    resourcesAction ->setCheckable(true);
+    tabGroup->addAction(resourcesAction);
+
     connect(overviewAction, SIGNAL(triggered()), this, SLOT(showNormalIfMinimized()));
     connect(overviewAction, SIGNAL(triggered()), this, SLOT(gotoOverviewPage()));
     connect(sendCoinsAction, SIGNAL(triggered()), this, SLOT(showNormalIfMinimized()));
@@ -267,6 +278,8 @@ void BitcoinGUI::createActions()
     connect(addressBookAction, SIGNAL(triggered()), this, SLOT(gotoAddressBookPage()));
     connect(multiSendAction, SIGNAL(triggered()), this, SLOT(showNormalIfMinimized()));
     connect(multiSendAction, SIGNAL(triggered()), this, SLOT(multiSendClicked()));
+    connect(resourcesAction, SIGNAL(triggered()), this, SLOT(showNormalIfMinimized()));
+    connect(resourcesAction, SIGNAL(triggered()), this, SLOT(gotoReSourcesPage()));
 
     quitAction = new QAction(QIcon(":/icons/quit"), tr("E&xit"), this);
     quitAction->setToolTip(tr("Quit application"));
@@ -313,6 +326,7 @@ void BitcoinGUI::createActions()
     connect(lockWalletAction, SIGNAL(triggered()), this, SLOT(lockWallet()));
     connect(signMessageAction, SIGNAL(triggered()), this, SLOT(gotoSignMessageTab()));
     connect(verifyMessageAction, SIGNAL(triggered()), this, SLOT(gotoVerifyMessageTab()));
+
 }
 
 void BitcoinGUI::createMenuBar()
@@ -374,6 +388,8 @@ void BitcoinGUI::createToolBars()
     toolbar2->addAction(receiveCoinsAction);
     toolbar2->addAction(historyAction);
     toolbar2->addAction(addressBookAction);
+    toolbar2->addAction(resourcesAction);
+
 
     QToolBar *toolbar3 = addToolBar(tr("Extra's toolbar"));
 	addToolBar(Qt::TopToolBarArea,toolbar3);
@@ -873,6 +889,14 @@ void BitcoinGUI::gotoVerifyMessageTab(QString addr)
 
     if(!addr.isEmpty())
         signVerifyMessageDialog->setAddress_VM(addr);
+}
+void BitcoinGUI::gotoReSourcesPage()
+{
+    resourcesAction->setChecked(true);
+    centralWidget->setCurrentWidget(resourcesPage);
+
+    exportAction->setEnabled(false);
+    disconnect(exportAction, SIGNAL(triggered()), 0, 0);
 }
 
 void BitcoinGUI::dragEnterEvent(QDragEnterEvent *event)
