@@ -385,7 +385,7 @@
           <string>Use Elite visual theme (requires restart)</string>
          </property>
         </widget>
-       </item>	   
+       </item>
        <item>
         <widget class="QCheckBox" name="displayAddresses">
          <property name="toolTip">
