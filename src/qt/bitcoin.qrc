@@ -58,6 +58,9 @@
         <file>res/art/explorer.png</file>
         <file>res/art/folding.png</file>
         <file>res/art/website.png</file>
+        <file>res/art/backround.png</file>
+        <file>res/art/logo.png</file>
+        <file>res/art/twitter.png</file>
     </qresource>
     <qresource prefix="/images">
         <file alias="about">res/images/about.png</file>
