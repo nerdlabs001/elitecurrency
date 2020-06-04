@@ -61,6 +61,7 @@
         <file>res/art/backround.png</file>
         <file>res/art/logo.png</file>
         <file>res/art/twitter.png</file>
+        <file>res/art/txbackround.png</file>
     </qresource>
     <qresource prefix="/images">
         <file alias="about">res/images/about.png</file>
