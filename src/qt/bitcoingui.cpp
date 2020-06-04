@@ -232,6 +232,9 @@ void BitcoinGUI::createActions()
     overviewAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_1));
     tabGroup->addAction(overviewAction);
 
+
+
+
     sendCoinsAction = new QAction(tr("&Send"), this);
     sendCoinsAction->setToolTip(tr("Send coins to an Elite address"));
     sendCoinsAction->setCheckable(true);
@@ -379,6 +382,8 @@ void BitcoinGUI::createToolBars()
     toolbar->setMovable(false);
     toolbar->addWidget(mainIcon);
 */
+
+
     QToolBar *toolbar = addToolBar(tr("Actions toolbar"));
     addToolBar(Qt::TopToolBarArea,toolbar);
 //  addToolBar(Qt::TopToolBarArea,toolbar2);
@@ -392,6 +397,7 @@ void BitcoinGUI::createToolBars()
     toolbar->addAction(historyAction);
     toolbar->addAction(addressBookAction);
     toolbar->addAction(resourcesAction);
+    toolbar->setStyleSheet("QToolButton { color: #c9a662; font-size: 24px; background-color: transparent; border: none; }");
 
 
     QToolBar *toolbar3 = addToolBar(tr("Extra's toolbar"));
