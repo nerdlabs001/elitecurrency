@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1100</width>
-    <height>657</height>
+    <height>731</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -102,7 +102,7 @@
            </property>
            <layout class="QGridLayout" name="gridLayout">
             <property name="leftMargin">
-             <number>0</number>
+             <number>30</number>
             </property>
             <property name="topMargin">
              <number>0</number>
@@ -113,7 +113,7 @@
             <property name="bottomMargin">
              <number>0</number>
             </property>
-            <item row="3" column="0">
+            <item row="4" column="0">
              <widget class="QFrame" name="frame_10">
               <property name="frameShape">
                <enum>QFrame::NoFrame</enum>
@@ -125,6 +125,12 @@
                <number>0</number>
               </property>
               <layout class="QGridLayout" name="gridLayout_9">
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
                <item row="0" column="0">
                 <widget class="QLabel" name="label_2">
                  <property name="palette">
@@ -133,9 +139,9 @@
                     <colorrole role="WindowText">
                      <brush brushstyle="SolidPattern">
                       <color alpha="255">
-                       <red>201</red>
-                       <green>166</green>
-                       <blue>98</blue>
+                       <red>220</red>
+                       <green>181</green>
+                       <blue>110</blue>
                       </color>
                      </brush>
                     </colorrole>
@@ -198,9 +204,9 @@
                     <colorrole role="WindowText">
                      <brush brushstyle="SolidPattern">
                       <color alpha="255">
-                       <red>201</red>
-                       <green>166</green>
-                       <blue>98</blue>
+                       <red>220</red>
+                       <green>181</green>
+                       <blue>110</blue>
                       </color>
                      </brush>
                     </colorrole>
@@ -347,9 +353,9 @@
                     <colorrole role="WindowText">
                      <brush brushstyle="SolidPattern">
                       <color alpha="255">
-                       <red>255</red>
-                       <green>255</green>
-                       <blue>255</blue>
+                       <red>70</red>
+                       <green>70</green>
+                       <blue>70</blue>
                       </color>
                      </brush>
                     </colorrole>
@@ -412,9 +418,9 @@
                     <colorrole role="WindowText">
                      <brush brushstyle="SolidPattern">
                       <color alpha="255">
-                       <red>255</red>
-                       <green>255</green>
-                       <blue>255</blue>
+                       <red>70</red>
+                       <green>70</green>
+                       <blue>70</blue>
                       </color>
                      </brush>
                     </colorrole>
@@ -572,7 +578,7 @@
               </layout>
              </widget>
             </item>
-            <item row="4" column="0">
+            <item row="5" column="0">
              <widget class="QFrame" name="frame_11">
               <property name="frameShape">
                <enum>QFrame::NoFrame</enum>
@@ -584,6 +590,12 @@
                <number>0</number>
               </property>
               <layout class="QGridLayout" name="gridLayout_10">
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
                <item row="0" column="0">
                 <widget class="QLabel" name="label_7">
                  <property name="sizePolicy">
@@ -604,9 +616,9 @@
                     <colorrole role="WindowText">
                      <brush brushstyle="SolidPattern">
                       <color alpha="255">
-                       <red>201</red>
-                       <green>166</green>
-                       <blue>98</blue>
+                       <red>220</red>
+                       <green>181</green>
+                       <blue>110</blue>
                       </color>
                      </brush>
                     </colorrole>
@@ -669,9 +681,9 @@
                     <colorrole role="WindowText">
                      <brush brushstyle="SolidPattern">
                       <color alpha="255">
-                       <red>201</red>
-                       <green>166</green>
-                       <blue>98</blue>
+                       <red>220</red>
+                       <green>181</green>
+                       <blue>110</blue>
                       </color>
                      </brush>
                     </colorrole>
@@ -818,9 +830,9 @@
                     <colorrole role="WindowText">
                      <brush brushstyle="SolidPattern">
                       <color alpha="255">
-                       <red>255</red>
-                       <green>255</green>
-                       <blue>255</blue>
+                       <red>70</red>
+                       <green>70</green>
+                       <blue>70</blue>
                       </color>
                      </brush>
                     </colorrole>
@@ -883,9 +895,9 @@
                     <colorrole role="WindowText">
                      <brush brushstyle="SolidPattern">
                       <color alpha="255">
-                       <red>255</red>
-                       <green>255</green>
-                       <blue>255</blue>
+                       <red>70</red>
+                       <green>70</green>
+                       <blue>70</blue>
                       </color>
                      </brush>
                     </colorrole>
@@ -1043,7 +1055,7 @@
               </layout>
              </widget>
             </item>
-            <item row="0" column="0">
+            <item row="1" column="0">
              <widget class="QFrame" name="frame_7">
               <property name="frameShape">
                <enum>QFrame::NoFrame</enum>
@@ -1055,7 +1067,13 @@
                <number>0</number>
               </property>
               <layout class="QGridLayout" name="gridLayout_11">
-               <item row="1" column="0">
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item row="0" column="0">
                 <widget class="QLabel" name="label_6">
                  <property name="sizePolicy">
                   <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
@@ -1069,9 +1087,9 @@
                     <colorrole role="WindowText">
                      <brush brushstyle="SolidPattern">
                       <color alpha="255">
-                       <red>201</red>
-                       <green>166</green>
-                       <blue>98</blue>
+                       <red>220</red>
+                       <green>181</green>
+                       <blue>110</blue>
                       </color>
                      </brush>
                     </colorrole>
@@ -1134,9 +1152,9 @@
                     <colorrole role="WindowText">
                      <brush brushstyle="SolidPattern">
                       <color alpha="255">
-                       <red>201</red>
-                       <green>166</green>
-                       <blue>98</blue>
+                       <red>220</red>
+                       <green>181</green>
+                       <blue>110</blue>
                       </color>
                      </brush>
                     </colorrole>
@@ -1275,7 +1293,7 @@
                  </property>
                 </widget>
                </item>
-               <item row="1" column="1">
+               <item row="0" column="1">
                 <widget class="QLabel" name="labelStake">
                  <property name="palette">
                   <palette>
@@ -1283,9 +1301,9 @@
                     <colorrole role="WindowText">
                      <brush brushstyle="SolidPattern">
                       <color alpha="255">
-                       <red>255</red>
-                       <green>255</green>
-                       <blue>255</blue>
+                       <red>70</red>
+                       <green>70</green>
+                       <blue>70</blue>
                       </color>
                      </brush>
                     </colorrole>
@@ -1319,9 +1337,9 @@
                     <colorrole role="Text">
                      <brush brushstyle="SolidPattern">
                       <color alpha="255">
-                       <red>255</red>
-                       <green>255</green>
-                       <blue>255</blue>
+                       <red>70</red>
+                       <green>70</green>
+                       <blue>70</blue>
                       </color>
                      </brush>
                     </colorrole>
@@ -1348,9 +1366,9 @@
                     <colorrole role="WindowText">
                      <brush brushstyle="SolidPattern">
                       <color alpha="255">
-                       <red>255</red>
-                       <green>255</green>
-                       <blue>255</blue>
+                       <red>70</red>
+                       <green>70</green>
+                       <blue>70</blue>
                       </color>
                      </brush>
                     </colorrole>
@@ -1384,9 +1402,9 @@
                     <colorrole role="Text">
                      <brush brushstyle="SolidPattern">
                       <color alpha="255">
-                       <red>255</red>
-                       <green>255</green>
-                       <blue>255</blue>
+                       <red>70</red>
+                       <green>70</green>
+                       <blue>70</blue>
                       </color>
                      </brush>
                     </colorrole>
@@ -1489,7 +1507,7 @@
                   <string>Total of coins that was staked, and do not yet count towards the current balance</string>
                  </property>
                  <property name="text">
-                  <string notr="true">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;0 1337&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                  <string notr="true">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#464646;&quot;&gt;0 1337&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                  </property>
                  <property name="alignment">
                   <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -1499,7 +1517,7 @@
                  </property>
                 </widget>
                </item>
-               <item row="1" column="2">
+               <item row="0" column="2">
                 <spacer name="horizontalSpacer_6">
                  <property name="orientation">
                   <enum>Qt::Horizontal</enum>
@@ -1512,26 +1530,10 @@
                  </property>
                 </spacer>
                </item>
-               <item row="0" column="1">
-                <spacer name="verticalSpacer">
-                 <property name="orientation">
-                  <enum>Qt::Vertical</enum>
-                 </property>
-                 <property name="sizeType">
-                  <enum>QSizePolicy::Fixed</enum>
-                 </property>
-                 <property name="sizeHint" stdset="0">
-                  <size>
-                   <width>20</width>
-                   <height>20</height>
-                  </size>
-                 </property>
-                </spacer>
-               </item>
               </layout>
              </widget>
             </item>
-            <item row="1" column="0">
+            <item row="2" column="0">
              <widget class="QFrame" name="frame_8">
               <property name="frameShape">
                <enum>QFrame::NoFrame</enum>
@@ -1543,6 +1545,12 @@
                <number>0</number>
               </property>
               <layout class="QGridLayout" name="gridLayout_13">
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
                <item row="0" column="0">
                 <widget class="QLabel" name="label_3">
                  <property name="sizePolicy">
@@ -1563,9 +1571,9 @@
                     <colorrole role="WindowText">
                      <brush brushstyle="SolidPattern">
                       <color alpha="255">
-                       <red>201</red>
-                       <green>166</green>
-                       <blue>98</blue>
+                       <red>220</red>
+                       <green>181</green>
+                       <blue>110</blue>
                       </color>
                      </brush>
                     </colorrole>
@@ -1628,9 +1636,9 @@
                     <colorrole role="WindowText">
                      <brush brushstyle="SolidPattern">
                       <color alpha="255">
-                       <red>201</red>
-                       <green>166</green>
-                       <blue>98</blue>
+                       <red>220</red>
+                       <green>181</green>
+                       <blue>110</blue>
                       </color>
                      </brush>
                     </colorrole>
@@ -1778,9 +1786,9 @@
                     <colorrole role="WindowText">
                      <brush brushstyle="SolidPattern">
                       <color alpha="255">
-                       <red>255</red>
-                       <green>255</green>
-                       <blue>255</blue>
+                       <red>70</red>
+                       <green>70</green>
+                       <blue>70</blue>
                       </color>
                      </brush>
                     </colorrole>
@@ -1814,9 +1822,9 @@
                     <colorrole role="Text">
                      <brush brushstyle="SolidPattern">
                       <color alpha="255">
-                       <red>255</red>
-                       <green>255</green>
-                       <blue>255</blue>
+                       <red>70</red>
+                       <green>70</green>
+                       <blue>70</blue>
                       </color>
                      </brush>
                     </colorrole>
@@ -1843,9 +1851,9 @@
                     <colorrole role="WindowText">
                      <brush brushstyle="SolidPattern">
                       <color alpha="255">
-                       <red>255</red>
-                       <green>255</green>
-                       <blue>255</blue>
+                       <red>70</red>
+                       <green>70</green>
+                       <blue>70</blue>
                       </color>
                      </brush>
                     </colorrole>
@@ -1879,9 +1887,9 @@
                     <colorrole role="Text">
                      <brush brushstyle="SolidPattern">
                       <color alpha="255">
-                       <red>255</red>
-                       <green>255</green>
-                       <blue>255</blue>
+                       <red>70</red>
+                       <green>70</green>
+                       <blue>70</blue>
                       </color>
                      </brush>
                     </colorrole>
@@ -1983,7 +1991,7 @@
                   <string>Total of transactions that have yet to be confirmed, and do not yet count towards the current balance</string>
                  </property>
                  <property name="text">
-                  <string notr="true">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;0 1337&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                  <string notr="true">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#464646;&quot;&gt;0 1337&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                  </property>
                  <property name="alignment">
                   <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -2009,7 +2017,7 @@
               </layout>
              </widget>
             </item>
-            <item row="5" column="0">
+            <item row="6" column="0">
              <widget class="QFrame" name="frame_9">
               <property name="frameShape">
                <enum>QFrame::NoFrame</enum>
@@ -2021,6 +2029,12 @@
                <number>0</number>
               </property>
               <layout class="QGridLayout" name="gridLayout_12">
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
                <item row="0" column="0">
                 <widget class="QLabel" name="labelImmatureText">
                  <property name="sizePolicy">
@@ -2041,9 +2055,9 @@
                     <colorrole role="WindowText">
                      <brush brushstyle="SolidPattern">
                       <color alpha="255">
-                       <red>201</red>
-                       <green>166</green>
-                       <blue>98</blue>
+                       <red>220</red>
+                       <green>181</green>
+                       <blue>110</blue>
                       </color>
                      </brush>
                     </colorrole>
@@ -2106,9 +2120,9 @@
                     <colorrole role="WindowText">
                      <brush brushstyle="SolidPattern">
                       <color alpha="255">
-                       <red>201</red>
-                       <green>166</green>
-                       <blue>98</blue>
+                       <red>220</red>
+                       <green>181</green>
+                       <blue>110</blue>
                       </color>
                      </brush>
                     </colorrole>
@@ -2460,7 +2474,7 @@
                   <string>Mined balance that has not yet matured</string>
                  </property>
                  <property name="text">
-                  <string notr="true">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;0 1337&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                  <string notr="true">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#464646;&quot;&gt;0 1337&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                  </property>
                  <property name="alignment">
                   <set>Qt::AlignCenter</set>
@@ -2483,21 +2497,24 @@
                  </property>
                 </spacer>
                </item>
-               <item row="1" column="1">
-                <spacer name="verticalSpacer_2">
-                 <property name="orientation">
-                  <enum>Qt::Vertical</enum>
-                 </property>
-                 <property name="sizeHint" stdset="0">
-                  <size>
-                   <width>20</width>
-                   <height>40</height>
-                  </size>
-                 </property>
-                </spacer>
-               </item>
               </layout>
              </widget>
+            </item>
+            <item row="0" column="0">
+             <spacer name="verticalSpacer_2">
+              <property name="orientation">
+               <enum>Qt::Vertical</enum>
+              </property>
+              <property name="sizeType">
+               <enum>QSizePolicy::Fixed</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>20</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
             </item>
            </layout>
           </widget>
@@ -2520,10 +2537,22 @@
             <number>0</number>
            </property>
            <layout class="QGridLayout" name="gridLayout_8">
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
             <item row="0" column="0">
              <widget class="QLabel" name="label_8">
               <property name="text">
                <string/>
+              </property>
+              <property name="pixmap">
+               <pixmap resource="../bitcoin.qrc">:/icons/res/art/status.png</pixmap>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignHCenter|Qt::AlignTop</set>
               </property>
              </widget>
             </item>
@@ -2548,7 +2577,16 @@
             <number>0</number>
            </property>
            <layout class="QGridLayout" name="gridLayout_7">
-            <item row="0" column="3">
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>25</number>
+            </property>
+            <item row="0" column="4">
              <widget class="QLabel" name="label10_16">
               <property name="minimumSize">
                <size>
@@ -2558,8 +2596,8 @@
               </property>
               <property name="maximumSize">
                <size>
-                <width>40</width>
-                <height>40</height>
+                <width>50</width>
+                <height>50</height>
                </size>
               </property>
               <property name="text">
@@ -2602,8 +2640,8 @@
              <widget class="QLabel" name="label10_15">
               <property name="minimumSize">
                <size>
-                <width>50</width>
-                <height>50</height>
+                <width>55</width>
+                <height>55</height>
                </size>
               </property>
               <property name="maximumSize">
@@ -2635,7 +2673,7 @@
               </property>
              </widget>
             </item>
-            <item row="0" column="4">
+            <item row="0" column="5">
              <spacer name="horizontalSpacer_11">
               <property name="orientation">
                <enum>Qt::Horizontal</enum>
@@ -2646,6 +2684,22 @@
               <property name="sizeHint" stdset="0">
                <size>
                 <width>20</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item row="0" column="3">
+             <spacer name="horizontalSpacer_12">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeType">
+               <enum>QSizePolicy::Fixed</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>5</width>
                 <height>20</height>
                </size>
               </property>
@@ -2765,7 +2819,7 @@
            <property name="minimumSize">
             <size>
              <width>1000</width>
-             <height>250</height>
+             <height>275</height>
             </size>
            </property>
            <property name="maximumSize">
@@ -2801,18 +2855,6 @@
             </property>
             <item row="0" column="0">
              <widget class="QFrame" name="frame_2">
-              <property name="minimumSize">
-               <size>
-                <width>500</width>
-                <height>300</height>
-               </size>
-              </property>
-              <property name="maximumSize">
-               <size>
-                <width>16777215</width>
-                <height>300</height>
-               </size>
-              </property>
               <property name="styleSheet">
                <string notr="true">background:transparent;</string>
               </property>
@@ -2838,24 +2880,6 @@
                <property name="bottomMargin">
                 <number>0</number>
                </property>
-               <item row="1" column="1">
-                <widget class="QLabel" name="label_4">
-                 <property name="font">
-                  <font>
-                   <pointsize>14</pointsize>
-                  </font>
-                 </property>
-                 <property name="text">
-                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt; color:#c9a662;&quot;&gt;RECENT TRANSTIONS&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-                 </property>
-                 <property name="alignment">
-                  <set>Qt::AlignCenter</set>
-                 </property>
-                 <property name="margin">
-                  <number>8</number>
-                 </property>
-                </widget>
-               </item>
                <item row="2" column="1">
                 <widget class="QListView" name="listTransactions">
                  <property name="minimumSize">
@@ -2876,9 +2900,9 @@
                     <colorrole role="WindowText">
                      <brush brushstyle="SolidPattern">
                       <color alpha="255">
-                       <red>76</red>
-                       <green>76</green>
-                       <blue>76</blue>
+                       <red>55</red>
+                       <green>55</green>
+                       <blue>55</blue>
                       </color>
                      </brush>
                     </colorrole>
@@ -2921,9 +2945,9 @@
                     <colorrole role="Text">
                      <brush brushstyle="SolidPattern">
                       <color alpha="255">
-                       <red>60</red>
-                       <green>60</green>
-                       <blue>60</blue>
+                       <red>55</red>
+                       <green>55</green>
+                       <blue>55</blue>
                       </color>
                      </brush>
                     </colorrole>
@@ -2937,11 +2961,11 @@
                      </brush>
                     </colorrole>
                     <colorrole role="Base">
-                     <brush brushstyle="SolidPattern">
+                     <brush brushstyle="NoBrush">
                       <color alpha="255">
-                       <red>37</red>
-                       <green>37</green>
-                       <blue>37</blue>
+                       <red>0</red>
+                       <green>0</green>
+                       <blue>0</blue>
                       </color>
                      </brush>
                     </colorrole>
@@ -2977,9 +3001,9 @@
                     <colorrole role="WindowText">
                      <brush brushstyle="SolidPattern">
                       <color alpha="255">
-                       <red>76</red>
-                       <green>76</green>
-                       <blue>76</blue>
+                       <red>55</red>
+                       <green>55</green>
+                       <blue>55</blue>
                       </color>
                      </brush>
                     </colorrole>
@@ -3022,9 +3046,9 @@
                     <colorrole role="Text">
                      <brush brushstyle="SolidPattern">
                       <color alpha="255">
-                       <red>60</red>
-                       <green>60</green>
-                       <blue>60</blue>
+                       <red>55</red>
+                       <green>55</green>
+                       <blue>55</blue>
                       </color>
                      </brush>
                     </colorrole>
@@ -3038,11 +3062,11 @@
                      </brush>
                     </colorrole>
                     <colorrole role="Base">
-                     <brush brushstyle="SolidPattern">
+                     <brush brushstyle="NoBrush">
                       <color alpha="255">
-                       <red>37</red>
-                       <green>37</green>
-                       <blue>37</blue>
+                       <red>0</red>
+                       <green>0</green>
+                       <blue>0</blue>
                       </color>
                      </brush>
                     </colorrole>
@@ -3139,7 +3163,7 @@
                      </brush>
                     </colorrole>
                     <colorrole role="Base">
-                     <brush brushstyle="SolidPattern">
+                     <brush brushstyle="NoBrush">
                       <color alpha="255">
                        <red>0</red>
                        <green>0</green>
@@ -3177,6 +3201,12 @@
                    </disabled>
                   </palette>
                  </property>
+                 <property name="layoutDirection">
+                  <enum>Qt::LeftToRight</enum>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background:transparent;</string>
+                 </property>
                  <property name="frameShape">
                   <enum>QFrame::NoFrame</enum>
                  </property>
@@ -3191,6 +3221,9 @@
                  </property>
                  <property name="horizontalScrollBarPolicy">
                   <enum>Qt::ScrollBarAlwaysOff</enum>
+                 </property>
+                 <property name="showDropIndicator" stdset="0">
+                  <bool>true</bool>
                  </property>
                  <property name="selectionMode">
                   <enum>QAbstractItemView::NoSelection</enum>
@@ -3226,11 +3259,29 @@
                  </property>
                  <property name="sizeHint" stdset="0">
                   <size>
-                   <width>40</width>
+                   <width>20</width>
                    <height>20</height>
                   </size>
                  </property>
                 </spacer>
+               </item>
+               <item row="1" column="0" colspan="3">
+                <widget class="QLabel" name="label_4">
+                 <property name="font">
+                  <font>
+                   <pointsize>14</pointsize>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt; color:#c9a662;&quot;&gt;RECENT TRANSACTIONS&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                 <property name="margin">
+                  <number>8</number>
+                 </property>
+                </widget>
                </item>
               </layout>
              </widget>
@@ -3259,6 +3310,76 @@
          <number>0</number>
         </property>
         <layout class="QGridLayout" name="gridLayout_4">
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item row="3" column="0">
+          <widget class="QFrame" name="frame_16">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>50</height>
+            </size>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::NoFrame</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Plain</enum>
+           </property>
+           <property name="lineWidth">
+            <number>0</number>
+           </property>
+           <layout class="QGridLayout" name="gridLayout_17">
+            <item row="0" column="0">
+             <widget class="QLabel" name="label_9">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>33</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>125</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="palette">
+               <palette>
+                <active/>
+                <inactive/>
+                <disabled/>
+               </palette>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>14</pointsize>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-image:url(:/icons/res/art/lock.png);</string>
+              </property>
+              <property name="text">
+               <string>LOCKED</string>
+              </property>
+              <property name="textFormat">
+               <enum>Qt::RichText</enum>
+              </property>
+              <property name="scaledContents">
+               <bool>false</bool>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
          <item row="2" column="0">
           <widget class="QLabel" name="labelTransactionsStatus">
            <property name="toolTip">
@@ -3503,7 +3624,7 @@
             <string>Your current balance</string>
            </property>
            <property name="text">
-            <string notr="true">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#c9a662;&quot;&gt;0.00000000 1337&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            <string notr="true">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#dcb56e;&quot;&gt;0.00000000 1337&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
            </property>
            <property name="alignment">
             <set>Qt::AlignCenter</set>
@@ -3521,9 +3642,9 @@
               <colorrole role="WindowText">
                <brush brushstyle="SolidPattern">
                 <color alpha="255">
-                 <red>255</red>
-                 <green>255</green>
-                 <blue>255</blue>
+                 <red>220</red>
+                 <green>181</green>
+                 <blue>110</blue>
                 </color>
                </brush>
               </colorrole>
@@ -3532,9 +3653,9 @@
               <colorrole role="WindowText">
                <brush brushstyle="SolidPattern">
                 <color alpha="255">
-                 <red>255</red>
-                 <green>255</green>
-                 <blue>255</blue>
+                 <red>220</red>
+                 <green>181</green>
+                 <blue>110</blue>
                 </color>
                </brush>
               </colorrole>
@@ -3554,11 +3675,12 @@
            </property>
            <property name="font">
             <font>
-             <pointsize>14</pointsize>
+             <family>Edwardian Script ITC</family>
+             <pointsize>20</pointsize>
             </font>
            </property>
            <property name="text">
-            <string>BALANCE</string>
+            <string>Balance</string>
            </property>
            <property name="scaledContents">
             <bool>false</bool>
@@ -3567,6 +3689,19 @@
             <set>Qt::AlignCenter</set>
            </property>
           </widget>
+         </item>
+         <item row="5" column="0">
+          <spacer name="verticalSpacer_3">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>40</height>
+            </size>
+           </property>
+          </spacer>
          </item>
         </layout>
        </widget>

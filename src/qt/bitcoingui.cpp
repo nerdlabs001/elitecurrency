@@ -226,34 +226,31 @@ void BitcoinGUI::createActions()
 {
     QActionGroup *tabGroup = new QActionGroup(this);
 
-    overviewAction = new QAction(tr("&Overview"), this);
+    overviewAction = new QAction(tr("&OVERVIEW  "), this);
     overviewAction->setToolTip(tr("Show general overview of wallet"));
     overviewAction->setCheckable(true);
     overviewAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_1));
     tabGroup->addAction(overviewAction);
 
-
-
-
-    sendCoinsAction = new QAction(tr("&Send"), this);
+    sendCoinsAction = new QAction(tr("&SEND  "), this);
     sendCoinsAction->setToolTip(tr("Send coins to an Elite address"));
     sendCoinsAction->setCheckable(true);
     sendCoinsAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_2));
     tabGroup->addAction(sendCoinsAction);
 
-    receiveCoinsAction = new QAction(tr("&Receive"), this);
+    receiveCoinsAction = new QAction(tr("&RECEIVE  "), this);
     receiveCoinsAction->setToolTip(tr("Show the list of addresses for receiving payments"));
     receiveCoinsAction->setCheckable(true);
     receiveCoinsAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_3));
     tabGroup->addAction(receiveCoinsAction);
 
-    historyAction = new QAction(tr("&Transactions"), this);
+    historyAction = new QAction(tr("&TRANSACTIONS  "), this);
     historyAction->setToolTip(tr("Browse transaction history"));
     historyAction->setCheckable(true);
     historyAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_4));
     tabGroup->addAction(historyAction);
 
-    addressBookAction = new QAction(tr("&Address Book"), this);
+    addressBookAction = new QAction(tr("&ADDRESS  "), this);
     addressBookAction->setToolTip(tr("Edit the list of stored addresses and labels"));
     addressBookAction->setCheckable(true);
     addressBookAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_5));
@@ -265,7 +262,7 @@ void BitcoinGUI::createActions()
     multiSendAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_7));
     tabGroup->addAction(multiSendAction);
 
-    resourcesAction = new QAction(tr("&Resources"), this);
+    resourcesAction = new QAction(tr("&WEBSITE  "), this);
     resourcesAction ->setToolTip(tr("Information and links about Elite "));
     resourcesAction ->setCheckable(true);
     resourcesAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_8));
@@ -316,7 +313,7 @@ void BitcoinGUI::createActions()
 
     exportAction = new QAction(QIcon(":/icons/export"), tr("&Export..."), this);
     exportAction->setToolTip(tr("Export the data in the current tab to a file"));
-    openRPCConsoleAction = new QAction(tr("&Debug Window"), this);
+    openRPCConsoleAction = new QAction(tr("&DEBUG  "), this);
     openRPCConsoleAction->setToolTip(tr("Open debugging and diagnostic console"));
 
     connect(quitAction, SIGNAL(triggered()), qApp, SLOT(quit()));
@@ -396,18 +393,22 @@ void BitcoinGUI::createToolBars()
     toolbar->addAction(receiveCoinsAction);
     toolbar->addAction(historyAction);
     toolbar->addAction(addressBookAction);
+    toolbar->addAction(openRPCConsoleAction);
     toolbar->addAction(resourcesAction);
-    toolbar->setStyleSheet("QToolButton { color: #c9a662; font-size: 24px; background-color: transparent; border: none; }");
+
+    toolbar->setStyleSheet("QToolButton { color: #dcb56e; font-size: 18px; background-color: transparent; border: none; }");
 
 
-    QToolBar *toolbar3 = addToolBar(tr("Extra's toolbar"));
+/*    QToolBar *toolbar3 = addToolBar(tr("Extra's toolbar"));
 	addToolBar(Qt::TopToolBarArea,toolbar3);
     toolbar3->setOrientation(Qt::Horizontal);
 	toolbar3->setFloatable(false);
     toolbar3->setMovable(false);	
     toolbar3->setToolButtonStyle(Qt::ToolButtonTextUnderIcon);
-	toolbar3->addAction(openRPCConsoleAction);
+    toolbar3->addAction(openRPCConsoleAction);
+*/
 }
+
 
 void BitcoinGUI::setClientModel(ClientModel *clientModel)
 {

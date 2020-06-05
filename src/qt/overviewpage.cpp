@@ -20,7 +20,7 @@ double GetPoSKernelPS2(const CBlockIndex* pindex);
 #include <QPainter>
 
 #define DECORATION_SIZE 50
-#define NUM_ITEMS 5
+#define NUM_ITEMS 4
 
 class TxViewDelegate : public QAbstractItemDelegate
 {
@@ -72,7 +72,7 @@ foreground = QColor(51,51,51);
         else
         {
             foreground = option.palette.color(QPalette::Text);
-            foreground = QColor(201,167,98);
+            foreground = QColor(220, 181, 110);
         }
         painter->setPen(foreground);
         QString amountText = BitcoinUnits::formatWithUnit(unit, amount, true);

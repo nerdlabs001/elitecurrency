@@ -62,6 +62,10 @@
         <file>res/art/logo.png</file>
         <file>res/art/twitter.png</file>
         <file>res/art/txbackround.png</file>
+        <file>res/art/Elite_Crown.png</file>
+        <file>res/art/lock.png</file>
+        <file>res/art/status.png</file>
+        <file>res/art/bal.png</file>
     </qresource>
     <qresource prefix="/images">
         <file alias="about">res/images/about.png</file>
@@ -113,5 +117,8 @@
         <file alias="uk">locale/bitcoin_uk.qm</file>
         <file alias="zh_CN">locale/bitcoin_zh_CN.qm</file>
         <file alias="zh_TW">locale/bitcoin_zh_TW.qm</file>
+    </qresource>
+    <qresource prefix="/fonts">
+        <file>fonts/EdwardianScriptITC.ttf</file>
     </qresource>
 </RCC>
